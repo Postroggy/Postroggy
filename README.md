@@ -30,16 +30,16 @@
 
 <p align="left">
   <a href="https://github.com/Postroggy/cc-switch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=cc-switch&theme=default" width="49%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Postroggy&repo=cc-switch&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/fast-context-skill">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=fast-context-skill&theme=default" width="49%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Postroggy&repo=fast-context-skill&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/paperclaw-mcp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=paperclaw-mcp&theme=default" width="49%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Postroggy&repo=paperclaw-mcp&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/superduck">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=superduck&theme=default" width="49%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Postroggy&repo=superduck&theme=default" width="49%" />
   </a>
 </p>
 
