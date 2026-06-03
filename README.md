@@ -4,10 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6366F1&center=true&vCenter=true&width=500&lines=AI+Agent+%C2%B7+MCP+%C2%B7+Codex+Skill;Cross-platform+Desktop+Tools;stay+gold,+pony+boy" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Postroggy&style=flat-square&color=6366f1" />
-</p>
-
 </div>
 
 ---
