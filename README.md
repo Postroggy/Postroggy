@@ -19,9 +19,9 @@
 ### 📊 Stats
 
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Postroggy&theme=tokyonight" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Postroggy&theme=tokyonight" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Postroggy&theme=tokyonight" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Postroggy&theme=default" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Postroggy&theme=default" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Postroggy&theme=default" width="32%" />
 </div>
 
 ---
@@ -30,16 +30,16 @@
 
 <p align="left">
   <a href="https://github.com/Postroggy/cc-switch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=cc-switch&theme=tokyonight" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=cc-switch&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/fast-context-skill">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=fast-context-skill&theme=tokyonight" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=fast-context-skill&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/paperclaw-mcp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=paperclaw-mcp&theme=tokyonight" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=paperclaw-mcp&theme=default" width="49%" />
   </a>
   <a href="https://github.com/Postroggy/superduck">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=superduck&theme=tokyonight" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Postroggy&repo=superduck&theme=default" width="49%" />
   </a>
 </p>
 
@@ -56,7 +56,7 @@
 </div>
 
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Postroggy&theme=tokyonight" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Postroggy&theme=default" width="100%" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:0ea5e9,100:6366f1&height=120&section=footer&animation=twinkling" width="100%" />
