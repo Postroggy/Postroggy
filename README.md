@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=160&section=header&text=oasis&fontSize=52&fontAlignY=40&animation=fadeIn&fontColor=white&desc=Vibe%20Coding&descAlignY=62&descSize=18" />
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6366F1&center=true&vCenter=true&width=500&lines=AI+Agent+%C2%B7+MCP+%C2%B7+Codex+Skill;Cross-platform+Desktop+Tools;stay+gold,+pony+boy" />
 
 </div>
@@ -11,7 +9,7 @@
 ### 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,bash,postgres,linux,git,vscode,docker&perline=10" />
+<img src="https://skillicons.dev/icons?i=go,python,cpp,ts,linux&perline=5" />
 </div>
 
 ---
