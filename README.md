@@ -4,15 +4,12 @@
 
 </div>
 
----
-
 ### 🛠️ Tech Stack
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=go,python,cpp,ts,linux&perline=5" />
 </div>
 
----
 
 ### 📊 Stats
 
@@ -22,7 +19,6 @@
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Postroggy&theme=default" width="32%" />
 </div>
 
----
 
 ### 🐍 Contribution Snake
 
