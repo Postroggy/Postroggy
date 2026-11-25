@@ -1,24 +1,35 @@
 <div align="center">
-  <img src="./assets/profile-intro.svg" width="520" alt="Building Personal Agent. Agent Memory &amp; Agent Infra." />
+
+<img src="./assets/profile-typing-color.svg" width="520" alt="Agent Memory &amp; Agent Infra / Building Personal Agent" />
+
 </div>
 
-### Selected Projects
+### 🛠️ Tech Stack
 
-- [Open Managed Agents](https://github.com/Postroggy/open-managed-agents): A local-first platform for managing agents, sessions, and memory stores, with an Anthropic-compatible API.
-- [PaperClaw](https://github.com/Postroggy/paperclaw-mcp): An MCP server for research agents that searches the web, academic papers, and patents.
+<div align="center">
+<img src="https://skillicons.dev/icons?i=go,python,cpp,ts,linux&perline=5" />
+</div>
 
-### Tech Stack
 
-Go · Python · C++ · TypeScript · Linux
+### 📊 Stats
 
-### GitHub Activity
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Postroggy&theme=default" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Postroggy&theme=default" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Postroggy&theme=default" width="32%" />
+</div>
 
+
+### 🐍 Contribution Snake
+
+<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Postroggy&amp;theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Postroggy&amp;theme=github" alt="GitHub contribution statistics" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Postroggy/Postroggy/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Postroggy/Postroggy/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Postroggy/Postroggy/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Postroggy/Postroggy/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Postroggy/Postroggy/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake tracing the GitHub contribution grid" />
-</picture>
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Postroggy&theme=default" width="100%" />
+</div>

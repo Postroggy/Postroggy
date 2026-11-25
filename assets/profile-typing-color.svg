@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="86" viewBox="0 0 520 86" role="img" aria-labelledby="title">
+  <title id="title">Agent Memory &amp; Agent Infra / Building Personal Agent</title>
+  <style>
+    text {
+      fill: #4338ca;
+      font: 600 23px ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+    .caret { fill: #087f75; animation: blink 1s step-end infinite; }
+    .line-1 { --phase: 0s; }
+    .line-2 { --phase: -5s; }
+    .line.line-2 { opacity: 0; }
+    .line { animation: cycle 10s step-end var(--phase) infinite; }
+    .reveal { animation: reveal 10s steps(var(--length)) var(--phase) infinite; }
+    .cursor { animation: move 10s steps(var(--length)) var(--phase) infinite; }
+    @keyframes cycle { 0% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes reveal { 0% { transform: scaleX(0); } 32%, 100% { transform: scaleX(1); } }
+    @keyframes move { 0% { transform: translateX(0); } 32%, 100% { transform: translateX(var(--distance)); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 65% { opacity: 0; } }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #c7d2fe; }
+      .caret { fill: #5eead4; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .line, .reveal, .cursor { animation: none; }
+      .line, .line.line-2 { opacity: 1; }
+      .line.line-1 { transform: translate(78px, 34px); }
+      .line.line-2 { transform: translate(99px, 64px); }
+      .cursor { display: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="reveal-1">
+      <rect class="reveal line-1" y="-24" width="364" height="32" style="--length: 26"/>
+    </clipPath>
+    <clipPath id="reveal-2">
+      <rect class="reveal line-2" y="-24" width="322" height="32" style="--length: 23"/>
+    </clipPath>
+  </defs>
+  <g class="line line-1" transform="translate(72 50)" style="--length: 26; --distance: 364px">
+    <text clip-path="url(#reveal-1)" textLength="364" lengthAdjust="spacingAndGlyphs">Agent Memory &amp; Agent Infra</text>
+    <g class="cursor"><rect class="caret" x="3" y="-18" width="10" height="21"/></g>
+  </g>
+  <g class="line line-2" transform="translate(93 50)" style="--length: 23; --distance: 322px">
+    <text clip-path="url(#reveal-2)" textLength="322" lengthAdjust="spacingAndGlyphs">Building Personal Agent</text>
+    <g class="cursor"><rect class="caret" x="3" y="-18" width="10" height="21"/></g>
+  </g>
+</svg>
