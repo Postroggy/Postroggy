@@ -33,5 +33,3 @@
 <div align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Postroggy&theme=default" width="100%" />
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:0ea5e9,100:6366f1&height=120&section=footer&animation=twinkling" width="100%" />
