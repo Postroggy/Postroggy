@@ -2,10 +2,10 @@
   <title id="title">Agent Memory &amp; Agent Infra / Building Personal Agent</title>
   <style>
     text {
-      fill: #24292f;
+      fill: #4338ca;
       font: 600 23px ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
     }
-    .caret { fill: #6941b8; animation: blink 1s step-end infinite; }
+    .caret { fill: #087f75; animation: blink 1s step-end infinite; }
     .line-1 { --phase: 0s; }
     .line-2 { --phase: -5s; }
     .line.line-2 { opacity: 0; }
@@ -17,8 +17,8 @@
     @keyframes move { 0% { transform: translateX(0); } 32%, 100% { transform: translateX(var(--distance)); } }
     @keyframes blink { 0%, 100% { opacity: 1; } 65% { opacity: 0; } }
     @media (prefers-color-scheme: dark) {
-      text { fill: #e6edf3; }
-      .caret { fill: #c4b5fd; }
+      text { fill: #c7d2fe; }
+      .caret { fill: #5eead4; }
     }
     @media (prefers-reduced-motion: reduce) {
       .line, .reveal, .cursor { animation: none; }

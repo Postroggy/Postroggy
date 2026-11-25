@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-typing.svg" width="520" alt="Agent Memory &amp; Agent Infra / Building Personal Agent" />
+<img src="./assets/profile-typing-color.svg" width="520" alt="Agent Memory &amp; Agent Infra / Building Personal Agent" />
 
 </div>
 
