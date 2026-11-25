@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="108" viewBox="0 0 520 108" role="img" aria-labelledby="label">
+  <title id="label">Building Personal Agent | Agent Memory &amp; Agent Infra</title>
+  <style>
+    svg {
+      --plum: #563c58;
+      --slate: #4b5c73;
+      --rose: #99657d;
+    }
+    .heading {
+      fill: var(--plum);
+      font: 650 34px system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    .subtitle {
+      fill: var(--slate);
+      font: 500 21px ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+    .reveal { animation: type 1.8s steps(26, end) 150ms both; }
+    .cursor { animation: move 1.8s steps(26, end) 150ms both; }
+    .cursor rect {
+      fill: var(--rose);
+      animation: dismiss 220ms ease 2.2s forwards;
+    }
+    @keyframes type {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    @keyframes move {
+      from { transform: translateX(0); }
+      to { transform: translateX(338px); }
+    }
+    @keyframes dismiss { to { opacity: 0; } }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --plum: #e3cbe0;
+        --slate: #b2c1d8;
+        --rose: #d2a1b5;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .subtitle { clip-path: none; }
+      .reveal { animation: none; }
+      .cursor { display: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing">
+      <rect class="reveal" y="-23" width="338" height="30"/>
+    </clipPath>
+  </defs>
+  <text class="heading" x="260" y="47" text-anchor="middle">Building Personal Agent</text>
+  <g transform="translate(91 81)">
+    <text class="subtitle" clip-path="url(#typing)" textLength="338" lengthAdjust="spacingAndGlyphs">Agent Memory &amp; Agent Infra</text>
+    <g class="cursor"><rect x="3" y="-16" width="9" height="19" rx="1"/></g>
+  </g>
+</svg>
