@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6366F1&center=true&vCenter=true&width=500&lines=AI+Agent+%C2%B7+MCP+%C2%B7+Codex+Skill" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6366F1&center=true&vCenter=true&width=500&lines=Agent+Memory+%26+Agent+Infra;Building+Personal+Agent" />
 
 </div>
 
