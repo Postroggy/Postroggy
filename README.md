@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6366F1&center=true&vCenter=true&width=500&lines=Agent+Memory+%26+Agent+Infra;Building+Personal+Agent" />
+<img src="./assets/profile-header.svg" width="520" alt="Agent Memory &amp; Agent Infra / Building Personal Agent" />
 
 </div>
 

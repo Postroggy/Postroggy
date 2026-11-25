@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="86" viewBox="0 0 520 86" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Agent Memory &amp; Agent Infra / Building Personal Agent</title>
+  <style>
+    .line-1 { --phase: 0s; }
+    .line-2 { --phase: -5s; }
+    .line.line-2 { opacity: 0; }
+    .line { animation: cycle 10s step-end var(--phase) infinite; }
+    .reveal {
+      animation: reveal 10s steps(var(--length)) var(--phase) infinite;
+    }
+    .cursor { animation: move 10s steps(var(--length)) var(--phase) infinite; }
+    .caret { animation: blink 1s step-end infinite; }
+    @keyframes cycle { 0% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes reveal { 0% { transform: scaleX(0); } 32%, 100% { transform: scaleX(1); } }
+    @keyframes move { 0% { transform: translateX(0); } 32%, 100% { transform: translateX(var(--distance)); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 65% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .line, .reveal, .cursor { animation: none; }
+      .line, .line.line-2 { opacity: 1; }
+      .line-1 { transform: translate(40px, 15px); }
+      .line-2 { transform: translate(40px, 47px); }
+      .reveal { transform: none; }
+      .cursor { display: none; }
+    }
+  </style>
+  <defs>
+    <path id="prompt" d="M0 0h3v3h3v3h3v3H6v3H3v3H0v-3h3V9h3V6H3V3H0z" fill="#b7a5ff"/>
+    <clipPath id="reveal-1"><rect class="reveal line-1" width="442" height="24" style="--length: 26"/></clipPath>
+    <clipPath id="reveal-2"><rect class="reveal line-2" width="391" height="24" style="--length: 23"/></clipPath>
+  </defs>
+  <path fill="#2f2945" d="M8 0h504v4h4v4h4v70h-4v4h-4v4H8v-4H4v-4H0V8h4V4h4z"/>
+  <path fill="#171425" d="M8 3h504v4h4v72h-4v4H8v-4H4V7h4z"/>
+  <g class="line line-1" transform="translate(40 31)" style="--length: 26; --distance: 442px">
+    <use href="#prompt" x="-22" y="6"/>
+    <g clip-path="url(#reveal-1)" fill="#e9e4ff">
+      <path d="
+        M3 0h9v3h-9zM71 0h3v3h-3zM102 0h3v3h-3zM114 0h3v3h-3zM224 0h6v3h-6zM258 0h9v3h-9zM326 0h3v3h-3zM357 0h15v3h-15zM397 0h6v3h-6z
+        M0 3h3v3h-3zM12 3h3v3h-3zM71 3h3v3h-3zM102 3h6v3h-6zM111 3h6v3h-6zM221 3h3v3h-3zM230 3h3v3h-3zM255 3h3v3h-3zM267 3h3v3h-3zM326 3h3v3h-3zM363 3h3v3h-3zM394 3h3v3h-3zM403 3h3v3h-3z
+        M0 6h3v3h-3zM12 6h3v3h-3zM20 6h12v3h-12zM37 6h9v3h-9zM51 6h12v3h-12zM68 6h12v3h-12zM102 6h3v3h-3zM108 6h3v3h-3zM114 6h3v3h-3zM122 6h9v3h-9zM136 6h6v3h-6zM145 6h3v3h-3zM156 6h9v3h-9zM170 6h3v3h-3zM176 6h6v3h-6zM187 6h3v3h-3zM199 6h3v3h-3zM221 6h3v3h-3zM227 6h3v3h-3zM255 6h3v3h-3zM267 6h3v3h-3zM275 6h12v3h-12zM292 6h9v3h-9zM306 6h12v3h-12zM323 6h12v3h-12zM363 6h3v3h-3zM374 6h12v3h-12zM394 6h3v3h-3zM408 6h3v3h-3zM414 6h6v3h-6zM428 6h9v3h-9z
+        M0 9h15v3h-15zM17 9h3v3h-3zM29 9h3v3h-3zM34 9h3v3h-3zM46 9h3v3h-3zM51 9h3v3h-3zM63 9h3v3h-3zM71 9h3v3h-3zM102 9h3v3h-3zM114 9h3v3h-3zM119 9h3v3h-3zM131 9h3v3h-3zM136 9h3v3h-3zM142 9h3v3h-3zM148 9h3v3h-3zM153 9h3v3h-3zM165 9h3v3h-3zM170 9h6v3h-6zM182 9h3v3h-3zM187 9h3v3h-3zM199 9h3v3h-3zM224 9h3v3h-3zM255 9h15v3h-15zM272 9h3v3h-3zM284 9h3v3h-3zM289 9h3v3h-3zM301 9h3v3h-3zM306 9h3v3h-3zM318 9h3v3h-3zM326 9h3v3h-3zM363 9h3v3h-3zM374 9h3v3h-3zM386 9h3v3h-3zM391 9h12v3h-12zM408 9h6v3h-6zM420 9h3v3h-3zM437 9h3v3h-3z
+        M0 12h3v3h-3zM12 12h3v3h-3zM17 12h3v3h-3zM29 12h3v3h-3zM34 12h15v3h-15zM51 12h3v3h-3zM63 12h3v3h-3zM71 12h3v3h-3zM102 12h3v3h-3zM114 12h3v3h-3zM119 12h15v3h-15zM136 12h3v3h-3zM142 12h3v3h-3zM148 12h3v3h-3zM153 12h3v3h-3zM165 12h3v3h-3zM170 12h3v3h-3zM187 12h3v3h-3zM199 12h3v3h-3zM221 12h3v3h-3zM227 12h3v3h-3zM233 12h3v3h-3zM255 12h3v3h-3zM267 12h3v3h-3zM272 12h3v3h-3zM284 12h3v3h-3zM289 12h15v3h-15zM306 12h3v3h-3zM318 12h3v3h-3zM326 12h3v3h-3zM363 12h3v3h-3zM374 12h3v3h-3zM386 12h3v3h-3zM394 12h3v3h-3zM408 12h3v3h-3zM428 12h12v3h-12z
+        M0 15h3v3h-3zM12 15h3v3h-3zM20 15h12v3h-12zM34 15h3v3h-3zM51 15h3v3h-3zM63 15h3v3h-3zM71 15h3v3h-3zM80 15h3v3h-3zM102 15h3v3h-3zM114 15h3v3h-3zM119 15h3v3h-3zM136 15h3v3h-3zM142 15h3v3h-3zM148 15h3v3h-3zM153 15h3v3h-3zM165 15h3v3h-3zM170 15h3v3h-3zM190 15h12v3h-12zM221 15h3v3h-3zM230 15h3v3h-3zM255 15h3v3h-3zM267 15h3v3h-3zM275 15h12v3h-12zM289 15h3v3h-3zM306 15h3v3h-3zM318 15h3v3h-3zM326 15h3v3h-3zM335 15h3v3h-3zM363 15h3v3h-3zM374 15h3v3h-3zM386 15h3v3h-3zM394 15h3v3h-3zM408 15h3v3h-3zM425 15h3v3h-3zM437 15h3v3h-3z
+        M0 18h3v3h-3zM12 18h3v3h-3zM29 18h3v3h-3zM37 18h9v3h-9zM51 18h3v3h-3zM63 18h3v3h-3zM74 18h6v3h-6zM102 18h3v3h-3zM114 18h3v3h-3zM122 18h9v3h-9zM136 18h3v3h-3zM142 18h3v3h-3zM148 18h3v3h-3zM156 18h9v3h-9zM170 18h3v3h-3zM199 18h3v3h-3zM224 18h6v3h-6zM233 18h3v3h-3zM255 18h3v3h-3zM267 18h3v3h-3zM284 18h3v3h-3zM292 18h9v3h-9zM306 18h3v3h-3zM318 18h3v3h-3zM329 18h6v3h-6zM357 18h15v3h-15zM374 18h3v3h-3zM386 18h3v3h-3zM394 18h3v3h-3zM408 18h3v3h-3zM428 18h12v3h-12z
+        M20 21h9v3h-9zM190 21h9v3h-9zM275 21h9v3h-9z
+      "/>
+    </g>
+    <g class="cursor">
+      <rect class="caret" width="9" height="21" fill="#b7a5ff"/>
+    </g>
+  </g>
+  <g class="line line-2" transform="translate(40 31)" style="--length: 23; --distance: 391px">
+    <use href="#prompt" x="-22" y="6"/>
+    <g clip-path="url(#reveal-2)" fill="#e9e4ff">
+      <path d="
+        M0 0h12v3h-12zM40 0h3v3h-3zM54 0h6v3h-6zM80 0h3v3h-3zM91 0h3v3h-3zM153 0h12v3h-12zM275 0h6v3h-6zM309 0h9v3h-9zM377 0h3v3h-3z
+        M0 3h3v3h-3zM12 3h3v3h-3zM57 3h3v3h-3zM80 3h3v3h-3zM153 3h3v3h-3zM165 3h3v3h-3zM278 3h3v3h-3zM306 3h3v3h-3zM318 3h3v3h-3zM377 3h3v3h-3z
+        M0 6h3v3h-3zM12 6h3v3h-3zM17 6h3v3h-3zM29 6h3v3h-3zM37 6h6v3h-6zM57 6h3v3h-3zM71 6h12v3h-12zM88 6h6v3h-6zM102 6h12v3h-12zM122 6h12v3h-12zM153 6h3v3h-3zM165 6h3v3h-3zM173 6h9v3h-9zM187 6h3v3h-3zM193 6h6v3h-6zM207 6h12v3h-12zM224 6h9v3h-9zM238 6h12v3h-12zM258 6h9v3h-9zM278 6h3v3h-3zM306 6h3v3h-3zM318 6h3v3h-3zM326 6h12v3h-12zM343 6h9v3h-9zM357 6h12v3h-12zM374 6h12v3h-12z
+        M0 9h12v3h-12zM17 9h3v3h-3zM29 9h3v3h-3zM40 9h3v3h-3zM57 9h3v3h-3zM68 9h3v3h-3zM80 9h3v3h-3zM91 9h3v3h-3zM102 9h3v3h-3zM114 9h3v3h-3zM119 9h3v3h-3zM131 9h3v3h-3zM153 9h12v3h-12zM170 9h3v3h-3zM182 9h3v3h-3zM187 9h6v3h-6zM199 9h3v3h-3zM204 9h3v3h-3zM221 9h3v3h-3zM233 9h3v3h-3zM238 9h3v3h-3zM250 9h3v3h-3zM267 9h3v3h-3zM278 9h3v3h-3zM306 9h15v3h-15zM323 9h3v3h-3zM335 9h3v3h-3zM340 9h3v3h-3zM352 9h3v3h-3zM357 9h3v3h-3zM369 9h3v3h-3zM377 9h3v3h-3z
+        M0 12h3v3h-3zM12 12h3v3h-3zM17 12h3v3h-3zM29 12h3v3h-3zM40 12h3v3h-3zM57 12h3v3h-3zM68 12h3v3h-3zM80 12h3v3h-3zM91 12h3v3h-3zM102 12h3v3h-3zM114 12h3v3h-3zM119 12h3v3h-3zM131 12h3v3h-3zM153 12h3v3h-3zM170 12h15v3h-15zM187 12h3v3h-3zM207 12h9v3h-9zM221 12h3v3h-3zM233 12h3v3h-3zM238 12h3v3h-3zM250 12h3v3h-3zM258 12h12v3h-12zM278 12h3v3h-3zM306 12h3v3h-3zM318 12h3v3h-3zM323 12h3v3h-3zM335 12h3v3h-3zM340 12h15v3h-15zM357 12h3v3h-3zM369 12h3v3h-3zM377 12h3v3h-3z
+        M0 15h3v3h-3zM12 15h3v3h-3zM17 15h3v3h-3zM26 15h6v3h-6zM40 15h3v3h-3zM57 15h3v3h-3zM68 15h3v3h-3zM80 15h3v3h-3zM91 15h3v3h-3zM102 15h3v3h-3zM114 15h3v3h-3zM122 15h12v3h-12zM153 15h3v3h-3zM170 15h3v3h-3zM187 15h3v3h-3zM216 15h3v3h-3zM221 15h3v3h-3zM233 15h3v3h-3zM238 15h3v3h-3zM250 15h3v3h-3zM255 15h3v3h-3zM267 15h3v3h-3zM278 15h3v3h-3zM306 15h3v3h-3zM318 15h3v3h-3zM326 15h12v3h-12zM340 15h3v3h-3zM357 15h3v3h-3zM369 15h3v3h-3zM377 15h3v3h-3zM386 15h3v3h-3z
+        M0 18h12v3h-12zM20 18h6v3h-6zM29 18h3v3h-3zM37 18h9v3h-9zM54 18h9v3h-9zM71 18h12v3h-12zM88 18h9v3h-9zM102 18h3v3h-3zM114 18h3v3h-3zM131 18h3v3h-3zM153 18h3v3h-3zM173 18h9v3h-9zM187 18h3v3h-3zM204 18h12v3h-12zM224 18h9v3h-9zM238 18h3v3h-3zM250 18h3v3h-3zM258 18h12v3h-12zM275 18h9v3h-9zM306 18h3v3h-3zM318 18h3v3h-3zM335 18h3v3h-3zM343 18h9v3h-9zM357 18h3v3h-3zM369 18h3v3h-3zM380 18h6v3h-6z
+        M122 21h9v3h-9zM326 21h9v3h-9z
+      "/>
+    </g>
+    <g class="cursor">
+      <rect class="caret" width="9" height="21" fill="#b7a5ff"/>
+    </g>
+  </g>
+</svg>
